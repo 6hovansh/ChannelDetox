@@ -1,0 +1,16 @@
+Not all of them are proper visible elements
+Some are:
+empty nodes
+placeholders
+or still loading
+
+DOM elements may exist but not be usable
+Always validate before modifying
+Real-world debugging 
+
+This is NOT beginner anymore:
+UI system
+State management
+Async automation
+User controls
+Real-world DOM hacking

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ChannelDetox",
+  "version": "1.0",
+  "description": "AI-powered YouTube subscription automation tool",
+  "permissions": ["scripting"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+  
+}
